@@ -1,0 +1,7 @@
+version: '3'
+services:
+  codewebsite:
+    container_name: codewebsite
+    build: .
+    ports:
+      - 3003:3003

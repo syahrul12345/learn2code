@@ -1,0 +1,40 @@
+#mainContainer {
+  padding-top: 10vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+#buttonRow {
+  padding-top: 5vh;
+}
+
+#snippetContainer {
+  padding-right: 10vw;
+}
+
+#classContainer {
+  padding-right: 10vw;
+}
+
+#skillsContainer {
+  padding-top: 5vh;
+}
+
+#codingBootcampContainer {
+  padding-top: 5vh;
+}
+
+.headerText {
+  font-family: Roboto;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover 
+{
+   color:#00A0C6; 
+   text-decoration:none; 
+  
