@@ -8,6 +8,7 @@ import (
 func main() {
 	// Simply serve the main website
 	fs := http.FileServer(http.Dir("./website"))
+
 	http.Handle("/", fs)
 
 	log.Println("Listening on :3003...")
